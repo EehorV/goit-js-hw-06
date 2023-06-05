@@ -13,3 +13,4 @@ const listOfItems = ingredients.map((ingredient) => {
   item.classList.add("item");
   return item;
 });
+document.querySelector("#ingredients").append(...listOfItems);
